@@ -4,4 +4,5 @@ jobs:
   first: 
     runs-on: ubuntu-latest
     steps: 
-      run: echo "hello world"
+      - name: Trigger
+        run: echo "hello world"
