@@ -1,0 +1,10 @@
+name: first_workflow
+on: workflow_dispatch
+jobs:
+  first: 
+    runs-on: ubuntu-latest
+    steps:
+      -name: Triggered
+       run: echo "hello world"
+      -name: Resting
+       run: echo "logging off"
